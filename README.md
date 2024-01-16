@@ -19,5 +19,5 @@ The **Calculator App** is a simple web application that allows users to perform 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/calculator-app.git
+   git clone https://github.com/chifavz/calculator-app.git
    cd calculator-app
