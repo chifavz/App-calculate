@@ -1,0 +1,91 @@
+/* Layout */
+.calculator {
+    max-width: 375px; /* Mobile width */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Common Button Styles */
+  .calculator .calculator-buttons button {
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 60px;
+  }
+  
+  /* Theme Handling */
+  .calculator.light {
+    /* Light theme styles */
+    background-color: #fff; /* Add your light theme background color here */
+    color: #333; /* Add your light theme text color here */
+  }
+  
+  .calculator.dark {
+    /* Dark theme styles */
+    background-color: #333; /* Add your dark theme background color here */
+    color: #fff; /* Add your dark theme text color here */
+  }
+  
+  /* Header and Theme Toggle Button Styles */
+  .calculator .calculator-header,
+  .calculator .theme-toggle button {
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Calculator Display Styles */
+  .calculator .calculator-display {
+    background-color: #f5f5f5; /* Default background color */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Calculator Buttons Styles */
+  .calculator .calculator-buttons button {
+    background-color: #e0e0e0; /* Default button background color */
+    box-shadow: 0 4px #c0c0c0; /* Default button box shadow */
+  }
+  
+  .calculator .calculator-buttons button.red {
+    background-color: #ff5555; /* Red button background color */
+    box-shadow: 0 4px #cc4444; /* Red button box shadow */
+  }
+  
+  .calculator .calculator-buttons button.grayish-orange {
+    background-color: #f0d691; /* Grayish-orange button background color */
+    box-shadow: 0 4px #d1ba7d; /* Grayish-orange button box shadow */
+  }
+  
+  /* Calculator Display Text Colors */
+  .calculator .calculator-display .input {
+    color: #333; /* Default input text color */
+  }
+  
+  .calculator .calculator-display .result {
+    color: #000; /* Updated result text color for better visibility */
+    background-color: #fff; /* Background color for better contrast */
+    padding: 10px; /* Increased padding for better readability */
+    font-size: 1.5em; /* Increased font size for better visibility */
+    font-weight: bold; /* Added bold font weight for emphasis */
+  }
+  
+  /* Colors - Theme 1 */
+  .calculator.theme1 {
+    background-color: hsl(222, 26%, 31%);
+    /* Add other theme-specific styles */
+  }
+  
+  /* Colors - Theme 2 */
+  .calculator.theme2 {
+    background-color: hsl(0, 0%, 90%);
+    /* Add other theme-specific styles */
+  }
+  
